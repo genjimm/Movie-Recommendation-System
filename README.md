@@ -226,6 +226,3 @@ Or open directly in Google Colab.
 - Streamlit  
 - NYU Tandon School of Engineering  
 
----
-
-## ⭐ If you found this project useful, please star the repository!
