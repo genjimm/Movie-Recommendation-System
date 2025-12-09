@@ -174,7 +174,7 @@ streamlit run app.py
 
 ---
 
-## ▶️ How to Run the Notebook
+## How to Run the Notebook
 
 ### 1. Clone the repository
 
