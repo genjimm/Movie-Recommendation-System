@@ -197,6 +197,3 @@ jupyter notebook movie_recommender.ipynb
 ```
 
 Or open directly in Google Colab.
-
----
-
