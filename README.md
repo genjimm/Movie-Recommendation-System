@@ -6,10 +6,10 @@ It includes **data preprocessing, exploratory data analysis (EDA), content-based
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
-📦 Movie-Recommender-System
+Movie-Recommender-System
 ├── movie_recommender.ipynb    # Main notebook: cleaning, EDA, models, evaluation, Streamlit app
 └── README.md                   # Project documentation
 ```
@@ -18,7 +18,7 @@ It includes **data preprocessing, exploratory data analysis (EDA), content-based
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project builds a scalable and interpretable movie recommendation system using:
 
@@ -30,7 +30,7 @@ The entire pipeline—from raw data to deployment—is implemented in the single
 
 ---
 
-## 🗂 Dataset Information
+## Dataset Information
 
 We use a TMDB/MovieLens-style dataset containing:
 
@@ -56,7 +56,7 @@ Nested JSON-like fields are cleaned using PySpark.
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 | Area | Tools |
 |------|-------|
@@ -68,7 +68,7 @@ Nested JSON-like fields are cleaned using PySpark.
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The notebook includes in-depth EDA exploring:
 
@@ -83,9 +83,9 @@ Visualizations are generated directly inside the notebook.
 
 ---
 
-## 🤖 Methodology
+## Methodology
 
-### 1️⃣ **Content-Based Filtering**
+### **Content-Based Filtering**
 
 The system creates a combined text representation using:
 
@@ -101,7 +101,7 @@ It returns the **Top-N most similar movies** to any given movie title.
 
 ---
 
-### 2️⃣ **Collaborative Filtering (ALS)**
+### **Collaborative Filtering (ALS)**
 
 The system uses PySpark’s **ALS (Alternating Least Squares)** to build a model based on user–movie interactions.
 
@@ -116,7 +116,7 @@ ALS provides **personalized recommendations** for any user ID.
 
 ---
 
-## 📊 Model Evaluation
+## Model Evaluation
 
 Metrics computed in the notebook:
 
@@ -130,7 +130,7 @@ The notebook also includes detailed performance comparison and interpretation.
 
 ---
 
-## 🏛 System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
@@ -150,13 +150,13 @@ flowchart LR
 
 ---
 
-## 🌐 Streamlit Web App
+## Streamlit Web App
 
 The final section of the notebook includes a Streamlit interface with:
 
 ### **Modes**
-- 🎬 **Movie-based search** (Content-Based)  
-- 👤 **User-based recommendations** (ALS)
+- **Movie-based search** (Content-Based)  
+- **User-based recommendations** (ALS)
 
 ### **Features**
 - Clean sidebar navigation  
@@ -199,30 +199,4 @@ jupyter notebook movie_recommender.ipynb
 Or open directly in Google Colab.
 
 ---
-
-## 🧭 Limitations
-
-- ALS struggles with **cold-start** for new movies  
-- Metadata quality affects content-based results  
-- TF-IDF lacks semantic understanding  
-- No implicit feedback (watch-time/clicks) used  
-
----
-
-## 🔮 Future Improvements
-
-- Hybrid model combining ALS + content similarity  
-- Deep learning embeddings (BERT, Sentence Transformers)  
-- Graph-based recommendation (GNN)  
-- Popularity/time-aware recommendations  
-- API deployment with FastAPI + Docker  
-
----
-
-## 🙌 Acknowledgements
-
-- TMDB & MovieLens datasets  
-- Apache Spark  
-- Streamlit  
-- NYU Tandon School of Engineering  
 
