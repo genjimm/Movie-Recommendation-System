@@ -49,7 +49,7 @@ The notebook is structured into eight major stages:
 | Feature Engineering | Spark transformations, UDFs |
 | Modeling | Spark MLlib ALS, TF-IDF |
 | Visualization | Matplotlib |
-| Serving | Streamlit (optional) |
+| Serving | Streamlit |
 ---
 
 ## System Architecture
