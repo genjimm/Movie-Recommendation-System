@@ -9,9 +9,20 @@ It includes **data preprocessing, exploratory data analysis (EDA), content-based
 ## Project Structure
 
 ```
-Movie-Recommender-System
-├── movie_recommender.ipynb    # Main notebook: cleaning, EDA, models, evaluation, Streamlit app
-└── README.md                   # Project documentation
+Movie-Recommendation-System
+├── Bigdata.ipynb               # Main notebook: data cleaning, integration, EDA, modeling, evaluation
+├── README.md                   # Project documentation
+│
+├── data_raw/                   # Original raw datasets (MovieLens + TMDB)
+│   ├── ratings_small.csv
+│   ├── movies_metadata.csv
+│   ├── keywords.csv
+│   ├── links.csv
+│   └── credits.zip
+│
+├── data_clean/                 # Cleaned & processed data + saved models
+│
+└── .gitattributes              # Git LFS settings
 ```
 
 > All work is included in one well-organized notebook for easy reproducibility and final project submission.
