@@ -1,8 +1,17 @@
 # 🎬 Movie Recommendation System  
-### *Hybrid Content-Based & Collaborative Filtering Recommender Built with PySpark*
+### *A Big Data Pipeline for Distributed Movie Recommendation using PySpark*
 
-This repository contains an end-to-end **Movie Recommendation System** implemented entirely in a single notebook.  
-It includes **data preprocessing, exploratory data analysis (EDA), content-based filtering, collaborative filtering (ALS), model evaluation, and a Streamlit web application**.
+This repository contains an end-to-end **Big Data movie recommendation project** implemented in a single PySpark notebook.  
+The project focuses on **large-scale data processing**, **distributed computation**, **multi-source data integration**, and the construction of a scalable recommendation pipeline.
+
+The system includes:
+
+- **Distributed ETL with PySpark**
+- **Large-scale metadata integration from nested JSON fields**
+- **Content-based similarity computation over high-dimensional text**
+- **Collaborative Filtering with Spark MLlib ALS**
+- **Model evaluation + visualization**
+- **Optional Streamlit interface for exploration**
 
 ---
 
