@@ -40,13 +40,8 @@ Movie-Recommendation-System
 
 ## Overview
 
-This project builds a scalable and interpretable movie recommendation system using:
-
-- **Content-Based Filtering** (TF-IDF + Cosine Similarity)  
-- **Collaborative Filtering** using **PySpark ALS**
-- **Interactive Streamlit Web App** for user-facing recommendations
-
-The entire pipeline—from raw data to deployment—is implemented in the single notebook.
+This project implements a complete **Big Data pipeline** for building a scalable and interpretable movie recommendation system using **distributed processing with PySpark**.  
+The primary focus is on **large-scale ETL**, **multi-source data integration**, and **distributed model training**, forming the foundation for both content-based and collaborative recommendation algorithms.
 
 ---
 
@@ -76,16 +71,16 @@ Nested JSON-like fields are cleaned using PySpark.
 
 ---
 
-## Technologies Used
+## Big Data Technologies Used
 
-| Area | Tools |
-|------|-------|
-| Data Processing | PySpark, Pandas |
-| Modeling | TF-IDF, Cosine Similarity, ALS |
+| Component | Tools |
+|----------|-------|
+| Distributed ETL | PySpark DataFrames, Window functions, `explode()` |
+| Storage | Parquet (columnar), pickle |
+| Feature Engineering | Spark transformations, UDFs |
+| Modeling | Spark MLlib ALS, TF-IDF |
 | Visualization | Matplotlib |
-| Deployment | Streamlit |
-| Environment | Python 3.x |
-
+| Serving | Streamlit (optional) |
 ---
 
 ## Exploratory Data Analysis (EDA)
